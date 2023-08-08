@@ -1,16 +1,12 @@
-# random_words
+# Random Words
 
-A new Flutter project.
+an app for listing unlimited (so-called) scrolling and liking in Flutter
 
-## Getting Started
+## screenshot
+![random_words](https://github.com/merihcavdar/random_words/assets/84540989/31390446-f8f6-47b2-af1e-3b59f0d025c8)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## features
+- 3rd party package usage for getting the english words called "english_words"
+- Set usage for storing liked words (apart from List for unique ones)
+- ListView.builder usage for unlimited listing words and scrolling
+- Refactoring widget generation by creating a function which returns the widget
